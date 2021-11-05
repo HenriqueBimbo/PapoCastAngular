@@ -1,0 +1,35 @@
+<div class="cor-fundo"> 
+<img src="../assets/imagem.png" id="imgfundo">
+
+<mat-card style="background-color: white;"> 
+<form id="formulario">
+  
+
+    <h2 id="faca"> Faça Login</h2>
+   
+    <input type="text" placeholder="E-mail" id="email"> <br><br>
+
+    <div> 
+    <input type="password" placeholder="Senha" id="senha" src="../assets/mask.png">
+    <img src ="../assets/mask.png" id="olho">
+  </div>
+
+    
+    <button (click)="logar()" type="submit" id="botao" style="color: white; font-family: Roboto Condensed; font-size: 20px;" >Entrar</button> <br>
+
+    <hr id="linha"> 
+    <div> 
+      <a (click)="cadastro()" id="cad">Faça seu cadastro </a>
+    <img src="/assets/play.png" id="play" href=""> 
+ 
+    
+
+    </div>
+    
+  </form>
+ 
+</mat-card>
+</div>
+
+
+<app-footer> </app-footer>

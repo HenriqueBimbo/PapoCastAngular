@@ -1,0 +1,34 @@
+<div class="cor-fundo"> 
+<mat-card style="background-color: white;"> 
+    <form class="cadastrar"(ngSubmit)="cadastrar()" id="formulario">
+      
+    
+        <h2 id="faca"> Faça seu cadastro</h2>
+       
+        <input type="text" placeholder="E-mail" id="email" [(ngModel)]="email" name="email"> <br><br> 
+    
+        <div> 
+        <input type="password" placeholder="Senha" id="senha" src="../assets/mask.png" [(ngModel)]="senha" name="senha">
+        <img src ="../assets/mask.png" id="olho" > 
+      </div>
+        <br>
+      
+        <input type="checkbox" id="terms" name="terms"> 
+        <h4 id="accept">Eu concordo com os <a href="" >Termos e Condições de Uso do <br>PapoCast</a></h4>
+     
+        
+        <button (click)="cadastrar()" type="submit" id="botao" style="color: white; font-family: Roboto Condensed; font-size: 20px;" >Cadastrar-se</button> <br>
+
+    
+        <hr id="linha"> 
+        <div> 
+            <a (click)=" login()" id="log">Faça Login </a>
+        <img src="/assets/play2.png" id="play" href="">
+        </div>
+        
+      </form>
+     
+    </mat-card>
+  </div>
+
+    <app-footer> </app-footer>

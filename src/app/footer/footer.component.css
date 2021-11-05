@@ -1,0 +1,41 @@
+#rodape {
+
+    font-family: 'Dosis', sans-serif;
+    background: #22A0A0;
+    position: absolute;
+    width: 100%;
+    height: 158px;
+    left: 0px;
+    top: 780px;
+
+
+
+}
+
+#inforodape {
+
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    margin-left: 300px;
+    color: white;
+
+
+
+
+}
+
+#logorodape {
+    
+    position: absolute;
+    padding-top: 2px;
+    top: 40px;
+    left: 1450px;
+    
+   
+   
+   
+
+
+}
+
+
